@@ -1,0 +1,104 @@
+.profile-card{
+    background-color: #111111;
+    border-radius: 16px;
+    padding: 16px 16px 24px 16px;
+    width: 250px;
+    gap: 2rem;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+
+.profile-container{
+    display: flex;
+    gap: 12px;
+}
+
+.profile-text{
+  color: white; 
+}
+
+.profile-subtext{
+    color: #A2A2A2;
+}
+
+.social-credentials{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.social-url{
+    display: flex;
+    background: #1A1A1A;
+    gap: 8px;
+    margin-top: -0.3rem;
+    border-radius: 24px;
+    padding: 4px 8px;
+}
+.social-url>img{
+    height: 18.458526611328125px;
+    width: 22.70599937438965px;
+    padding-top: 0.5rem;
+  
+}
+.subtext{
+    color: #A2A2A2;
+    margin-top: 0.5rem;
+    font-size: 12px;
+}
+
+.user-bio{
+    color: #A2A2A2;
+    font-size: 14px;
+}
+
+.community{
+    color:#A2A2A2;
+}
+.community-logo{
+    display: flex;
+    gap: 8px;
+}
+
+.subscribe-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+    color: white;
+    padding: 16px 16px 16px 16px;
+    margin-top: 2rem;
+    border-radius: 16px;
+    width: 250px;
+    border: none;
+    border: 2px solid #A2A2A2 !important;
+    gap: 1rem;
+}
+
+.subscribe-btn>svg{
+    positon: absolute;
+    top: 25px;
+    color: white;
+}
+
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 2rem;
+}
+
+.skill{
+    display: flex;
+    gap: 6px;
+    color: #A2A2A2;
+    font-size: 12px;
+    padding: 0px 10px;
+    border-radius: 40px;
+    border: 1px solid 1A1A1A;
+}
+.skill1,.skill2{
+    border-radius: 40px;
+    border: 2px solid #FFC148;
+    color: #FFC148;
+}

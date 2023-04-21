@@ -1,0 +1,40 @@
+.card-container2{
+    display: flex;
+    gap: 16px;
+    margin-top: 0rem;
+}
+
+.card2{
+    width: 200px;
+    height: 305px;
+    border-radius: 8px;
+    background: #111111;
+    padding: 6px 6px 8px 6px;
+}
+
+.card2>img{
+    width:100%;
+}
+.image-container{
+    positon: relative;
+}
+
+
+.details1{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 12px;
+    margin-top: -1rem;
+}
+.details2{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: -1rem;
+    font-size: 12px;
+}
+
+.title>span{
+    color: #19ED7B;
+}
